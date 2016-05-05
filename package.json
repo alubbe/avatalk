@@ -1,0 +1,30 @@
+{
+  "name": "avatalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ava": "ava",
+    "mocha": "mocha mochatest",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Andreas Lubbe <npm@lubbe.org>",
+  "license": "ISC",
+  "ava": {
+    "files": [
+      "avatest/*.js"
+    ],
+    "tap": false,
+    "verbose": true,
+    "require": [
+    ]
+  },
+  "dependencies": {
+    "ava": "^0.14.0",
+    "bluebird": "^3.3.5",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "request": "^2.72.0"
+  }
+}
